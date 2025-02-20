@@ -1,0 +1,17 @@
+
+
+.flex-container {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.flex-item {
+    background-color: lightgreen;
+    padding: 20px;
+    /* align-items: center; */
+    width: 200px;
+    height: 200px;
+}
