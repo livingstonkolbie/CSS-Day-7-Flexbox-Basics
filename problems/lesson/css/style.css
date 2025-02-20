@@ -1,0 +1,30 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: center;
+    /* justify-content: space-between; */
+
+    /* Align-items works y-axis and works for flex */
+    align-items: center;
+    min-height: 200px;
+    gap: 1rem;
+    background-color: #f0f0f0;
+
+}
+
+.flexItem {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.flexItem:nth-child(2) {
+    flex: 1;
+    background-color: lightseagreen;
+}
+
+.flexItem:nth-child(3) {
+    flex: 2;
+    background-color: lightcoral;
+}
