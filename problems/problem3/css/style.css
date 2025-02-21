@@ -23,10 +23,22 @@
 }
 
 .box:nth-child(3) {
+
     background-color: blueviolet;
     height: 300px;
     border-radius: 50%;
     
+}
+
+.little {
+    position: relative;
+    background-color: burlywood;
+    width: 75px;
+    height: 75px;
+    top: 93px;
+    left: 114px;
+    border: 3px dashed red;
+
 }
 
 .box:nth-child(4) {
